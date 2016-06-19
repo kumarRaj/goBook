@@ -16,5 +16,7 @@ func Duplicate() {
 		}
 		textMap[scanner.Text()]++
 	}
-	fmt.Println(textMap)
+	for line := range textMap {
+		fmt.Println(line, textMap[line])
+	}
 }
