@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-import "./lib"
+import (
+	"fmt"
+
+	"github.com/learning/go-book/lib"
+)
 
 func main() {
 	fmt.Println("Hello, world")
